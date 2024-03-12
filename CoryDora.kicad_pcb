@@ -7645,6 +7645,7 @@
 		(property "Reference" "D5"
 			(at 3.81 2.12 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "eea1d31f-590e-4f5a-8b64-4c63815048fa")
 			(effects
 				(font
@@ -7657,6 +7658,7 @@
 		(property "Value" "Diode"
 			(at 3.81 -2.12 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "b99849c0-a418-440f-9ecd-23fc388e9390")
 			(effects
 				(font
@@ -7958,18 +7960,6 @@
 			(layer "B.Fab")
 			(uuid "aa174028-dd58-4531-ae80-4f4ff2088974")
 		)
-		(fp_text user "K"
-			(at 0 1.8 90)
-			(layer "B.SilkS")
-			(uuid "5c418c7d-0e2e-4d2d-bb27-216cbb306d73")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 4.11 0 90)
 			(layer "B.Fab")
@@ -8037,6 +8027,7 @@
 		(property "Reference" "D1"
 			(at 3.81 2.12 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "df1a2a69-1d70-493c-ae27-efd5233a3aac")
 			(effects
 				(font
@@ -8049,6 +8040,7 @@
 		(property "Value" "Diode"
 			(at 3.81 -2.12 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "df30de24-33c5-49f5-a8e9-265450e21b00")
 			(effects
 				(font
@@ -8350,18 +8342,6 @@
 			(layer "B.Fab")
 			(uuid "8ba24bfd-e8be-4bcb-9680-5a8f73e6f3e3")
 		)
-		(fp_text user "K"
-			(at 0 1.8 90)
-			(layer "B.SilkS")
-			(uuid "49e743ee-74fb-453c-a568-5cbff9a6281d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 4.11 0 90)
 			(layer "B.Fab")
@@ -8429,6 +8409,7 @@
 		(property "Reference" "D6"
 			(at 3.81 2.12 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "f4aefda3-cf86-4556-b482-313977511328")
 			(effects
 				(font
@@ -8441,6 +8422,7 @@
 		(property "Value" "Diode"
 			(at 3.81 -2.12 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "6f9d21a7-60f5-4ad2-bd4b-606df31b5f4f")
 			(effects
 				(font
@@ -8742,18 +8724,6 @@
 			(layer "B.Fab")
 			(uuid "bfb9327e-8cfe-4423-9014-4fd48ca224ef")
 		)
-		(fp_text user "K"
-			(at 0 1.8 90)
-			(layer "B.SilkS")
-			(uuid "8c2cc605-e6d9-467c-b904-968ea51191ca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 4.11 0 90)
 			(layer "B.Fab")
@@ -8821,6 +8791,7 @@
 		(property "Reference" "D7"
 			(at 3.81 2.12 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "0ba578a2-dd30-4d1f-82d4-130ef9690b6a")
 			(effects
 				(font
@@ -8833,6 +8804,7 @@
 		(property "Value" "Diode"
 			(at 3.81 -2.12 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "514c5266-8f89-4f25-9102-3dd0fe087b7a")
 			(effects
 				(font
@@ -9136,18 +9108,6 @@
 		)
 		(fp_text user "K"
 			(at 0 1.8 90)
-			(layer "B.SilkS")
-			(uuid "ffa63d3e-6873-4225-8817-71efe92196d4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(fp_text user "K"
-			(at 0 1.8 90)
 			(layer "B.Fab")
 			(uuid "a8ec94ef-d95d-4277-92a1-8c5b5fdbade8")
 			(effects
@@ -9213,6 +9173,7 @@
 		(property "Reference" "D3"
 			(at 3.81 2.12 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "8e34a0b2-2735-470e-ae20-598c6f640103")
 			(effects
 				(font
@@ -9225,6 +9186,7 @@
 		(property "Value" "Diode"
 			(at 3.81 -2.12 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "86abe37f-0713-4b0f-b4c0-e2444508766a")
 			(effects
 				(font
@@ -9528,18 +9490,6 @@
 		)
 		(fp_text user "K"
 			(at 0 1.8 90)
-			(layer "B.SilkS")
-			(uuid "e3d266fd-8716-446d-b550-34ca710cce00")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(fp_text user "K"
-			(at 0 1.8 90)
 			(layer "B.Fab")
 			(uuid "2242b06c-52ad-4ef0-9c36-143b78395638")
 			(effects
@@ -9605,6 +9555,7 @@
 		(property "Reference" "D8"
 			(at 3.81 2.12 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "e30f600b-22f0-49ba-9d4a-80f34febaf43")
 			(effects
 				(font
@@ -9617,6 +9568,7 @@
 		(property "Value" "Diode"
 			(at 3.81 -2.12 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "4b67c2db-50ad-401a-b428-2f9b89c574aa")
 			(effects
 				(font
@@ -9918,18 +9870,6 @@
 			(layer "B.Fab")
 			(uuid "9c94b72f-fb49-481e-9288-a833512fbc89")
 		)
-		(fp_text user "K"
-			(at 0 1.8 90)
-			(layer "B.SilkS")
-			(uuid "28ddd8b0-c211-492d-aaee-a01cfbc50d34")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 4.11 0 90)
 			(layer "B.Fab")
@@ -10009,6 +9949,7 @@
 		(property "Value" "Diode"
 			(at 3.81 -2.12 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "e801bd78-25b4-4bbb-b71e-37b03f8fb154")
 			(effects
 				(font
@@ -10312,18 +10253,6 @@
 		)
 		(fp_text user "K"
 			(at 0 1.8 90)
-			(layer "B.SilkS")
-			(uuid "90c06444-2bd1-4d69-8999-287d2993269d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(fp_text user "K"
-			(at 0 1.8 90)
 			(layer "B.Fab")
 			(uuid "35cf3c3e-146f-4864-a4f4-401261f21911")
 			(effects
@@ -10389,6 +10318,7 @@
 		(property "Reference" "D4"
 			(at 3.81 2.12 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "e757bca9-c6d8-451f-a9c0-72b21884b98d")
 			(effects
 				(font
@@ -10401,6 +10331,7 @@
 		(property "Value" "Diode"
 			(at 3.81 -2.12 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "214bc252-7cec-40b7-92ce-3d854c0e3cd2")
 			(effects
 				(font
@@ -10701,18 +10632,6 @@
 			)
 			(layer "B.Fab")
 			(uuid "07039faa-489c-424b-ac13-8264c4fa301f")
-		)
-		(fp_text user "K"
-			(at 0 1.8 90)
-			(layer "B.SilkS")
-			(uuid "3816c6d3-373e-48a2-a447-23025d2041af")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4.11 0 90)
@@ -11176,6 +11095,7 @@
 		(property "Reference" "D9"
 			(at 3.81 2.12 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "95da8ea1-caa0-4322-913f-702bce55033f")
 			(effects
 				(font
@@ -11188,6 +11108,7 @@
 		(property "Value" "Diode"
 			(at 3.81 -2.12 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "47cfce40-6db5-42aa-abc8-affedff1dae4")
 			(effects
 				(font
@@ -11488,18 +11409,6 @@
 			)
 			(layer "B.Fab")
 			(uuid "8c6fefba-2729-4917-9f56-27800259cc9c")
-		)
-		(fp_text user "K"
-			(at 0 1.8 90)
-			(layer "B.SilkS")
-			(uuid "e6c71893-a3bf-46b3-abd2-18415d308eac")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
 		)
 		(fp_text user "K"
 			(at 0 1.8 90)
