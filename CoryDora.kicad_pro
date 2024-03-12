@@ -465,7 +465,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "../../../../../../../Applications/KiCad/",
-      "plot": "",
+      "plot": "Fab/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
