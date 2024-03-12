@@ -41,7 +41,7 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(grid_origin 80.645 98.983262)
+		(grid_origin 83.9216 143.636462)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -113,6 +113,116 @@
 	(net 30 "unconnected-(U1-3V3-Pad21)")
 	(net 31 "unconnected-(U1-8-Pad9)")
 	(net 32 "unconnected-(U1-9-Pad10)")
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "2bf676ed-8b1e-469f-a441-bcfb4976e892")
+		(at 166.3954 142.417262)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "H1"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(uuid "0ba927d1-2241-4983-a102-41f66eab5276")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "c072d494-e7d3-41b2-9df3-ec2fea09c755")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1325943a-4ee9-4bbf-8131-898c596ec0d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2836386-55e9-48a5-9eea-76afd9b8fd33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b71126cb-d74d-4d05-80b5-68cd1009ea24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/494bcbc9-098b-400d-a2f6-fb7934535ec0")
+		(sheetname "Root")
+		(sheetfile "CoryDora.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "5bf1458a-44d5-44cb-bcef-921a28e7242a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "e7844bcc-87e7-4f23-b76a-02b86f8f0a79")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2c7e4ee8-7cf1-409e-ac16-a3cd87f078a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "27ea4b6e-8227-4936-a0a8-927e8d70c76a")
+		)
+	)
 	(footprint "ScottoKeebs_Hotswap:Hotswap_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "35fb01fb-0e0a-48e4-bdbf-88abcd1d3b97")
@@ -1543,6 +1653,116 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "62c22d1c-41e4-4706-ad5c-bd7d9ccad22c")
+		(at 84.1502 142.849062)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "H4"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(uuid "370abaa4-a408-44c2-94ff-8ef0d04e5e00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "b728646d-50d4-4dbf-87ae-d1169c76929f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03319477-9609-4ddc-b037-207874da9b4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "925c427b-1f6e-448d-9f27-ff0643fe2d00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff9aab3b-37b6-40f4-9691-07d50057c9f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/8237f037-a16f-407e-bb1f-7024f66f0e1c")
+		(sheetname "Root")
+		(sheetfile "CoryDora.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "7787f51e-f29a-47a0-99f8-c8fa602ebb1e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "9aab07f4-f29e-4eb1-84b9-112eda481ccf")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d01b4afb-609b-4222-8d3e-88398bf8612f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1f6a2354-227f-427a-bc5e-5baafcec844a")
+		)
+	)
 	(footprint "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 		(layer "F.Cu")
 		(uuid "675cdaba-429e-4624-a1f9-ecc5dea6e076")
@@ -2681,6 +2901,116 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "7958e124-a418-4643-9a94-83b9b18f1dd3")
+		(at 84.2772 88.874062)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "H3"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(uuid "48295365-7c9d-4732-81c9-129e03ccefbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "33ddcd79-cf21-446f-ae74-cb2e3d33e9ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b77ed68a-7c63-4f22-8813-517806792816")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0633cd45-cdd9-49b0-8a62-370a3483bad9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9de2ea34-9278-4f39-936c-b602372064ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/c3d6289e-c6f8-4576-ae44-66ed9b5cadff")
+		(sheetname "Root")
+		(sheetfile "CoryDora.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "6dcd7f8e-c1f8-4595-9632-0dba066b95ce")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "434d0e89-60b3-4846-bbda-34e0d1762502")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2fbd4b02-6de4-473a-96d7-a920b3b3b8fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6ad66ff1-e345-408e-b6e3-13d2a2a83ac6")
 		)
 	)
 	(footprint "ScottoKeebs_Hotswap:Hotswap_MX_Plated_1.00u"
@@ -6263,7 +6593,7 @@
 		(uuid "de8324ce-8452-4823-9d64-cb2d6b2d959f")
 		(at 149.645 124.983262 90)
 		(property "Reference" "J1"
-			(at 7.75 10 270)
+			(at 7.75 10 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fb78c25f-66d7-4039-9d6f-67145bbaee7c")
@@ -6275,7 +6605,7 @@
 			)
 		)
 		(property "Value" "OLED_128x32"
-			(at 5.75 5.75 270)
+			(at 5.75 5.75 -90)
 			(layer "F.Fab")
 			(uuid "051f77ad-a680-4a80-9a66-1818e8f1a7e0")
 			(effects
@@ -6479,6 +6809,116 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "f2af4884-b383-49e4-b17a-3abe9b7cf432")
+		(at 168.148 88.391462)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "H2"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(uuid "7f64694e-092d-4d10-82d6-f6d5bdf9d850")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "d4693f35-c256-4153-b473-5e94251e7be6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03fac79d-7454-49e1-9227-4e1bba4e32c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c39d5b8c-a90d-40ee-9b17-21dc1b7d1aa4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97ea6b53-28f6-4c82-9abe-e49d8c59f371")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/a7916a3a-166a-4f51-850c-478164f5bf27")
+		(sheetname "Root")
+		(sheetfile "CoryDora.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "7704e8ba-a87b-4f34-945a-4f1f652df9f3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "2cdb3cb3-e33c-487b-b6d9-1a6fddf7eb28")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b87aef22-400d-495a-9e34-40f3af78f5d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "658ecc89-8ee9-435b-939f-be7318ca65d4")
 		)
 	)
 	(footprint "ScottoKeebs_Hotswap:Hotswap_MX_Plated_1.00u"
@@ -11119,6 +11559,83 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 81.3054 85.622862)
+		(end 170.9166 145.719262)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "376be758-701e-46fc-8335-451ee747e129")
+	)
+	(dimension
+		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "41b7f3fe-fad7-418a-9a8d-f4d4cb98fd1d")
+		(pts
+			(xy 81.3054 145.719262) (xy 171.1706 145.719262)
+		)
+		(height 10.363199)
+		(gr_text "89.8652 mm"
+			(at 126.238 154.932461 0)
+			(layer "Edge.Cuts")
+			(uuid "41b7f3fe-fad7-418a-9a8d-f4d4cb98fd1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "62d65cb6-8d32-42c5-82e4-766615d63b3b")
+		(pts
+			(xy 171.1706 145.719262) (xy 171.1706 85.622862)
+		)
+		(height 9.4488)
+		(gr_text "60.0964 mm"
+			(at 179.4694 115.671062 90)
+			(layer "Edge.Cuts")
+			(uuid "62d65cb6-8d32-42c5-82e4-766615d63b3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
 	(segment
 		(start 143.125932 94.932816)
 		(end 143.125932 96.822179)
@@ -11320,44 +11837,44 @@
 		(uuid "ca31ebed-336c-4d34-b2f7-9b751fcef060")
 	)
 	(segment
-		(start 139.532724 119.415386)
+		(start 132.105 120.063262)
 		(end 138.884849 120.063262)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 6)
-		(uuid "068edb11-1bf0-4729-b3a2-dc514f14908f")
+		(uuid "0199fe3a-4a19-4e84-bb33-5c7bd9f64dad")
 	)
 	(segment
 		(start 138.884849 120.063262)
-		(end 132.105 120.063262)
+		(end 138.886849 120.065262)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 6)
-		(uuid "53f6e451-2fa0-4ba5-862d-f5a653dd2c10")
+		(uuid "06c5e0d8-fdab-4911-a31a-17463ca65435")
 	)
 	(segment
-		(start 143.125932 115.822179)
-		(end 139.532724 119.415386)
+		(start 143.125932 118.01093)
+		(end 143.125932 113.932816)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 6)
-		(uuid "65ce5d35-c646-403e-8f84-a798db58b903")
+		(uuid "3bd3fe1f-e8c2-4082-b67d-5301c98e03cf")
 	)
 	(segment
-		(start 143.125932 113.932816)
-		(end 143.125932 115.822179)
+		(start 138.886849 120.065262)
+		(end 141.0716 120.065262)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 6)
-		(uuid "6e106dd2-85be-49ad-b71c-e040a2c6bd38")
+		(uuid "4249f6fa-2963-4bdf-b51d-8536dfcde648")
 	)
 	(segment
-		(start 139.532724 119.415386)
-		(end 139.545424 119.402686)
+		(start 141.0716 120.065262)
+		(end 143.125932 118.01093)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 6)
-		(uuid "ccfe4a77-dfb7-4264-a1a5-d3b6055cd608")
+		(uuid "798546a9-4c97-4c7d-8c56-1febc8dea1fc")
 	)
 	(segment
 		(start 125.645 114.793262)
