@@ -5,7 +5,8 @@ A simple open-source, RP2040-based, QMK-compatible 3x3 mechanical macropad.
 ## Rationale
 
 <p align="center">
-<img src="img/yampad2.jpg" alt="CoryDora v1" width="600"/>
+<img src="img/CoryDora.png" alt="CoryDora v1" width="600"/>
+<img src="img/CoryDora-front.png" alt="CoryDora front v1" width="600"/>
 </p>
 
 The main goal of this project is to have a cheap, easy-to-build, feature-rich numpad which is completely open source.
