@@ -468,7 +468,7 @@
       "plot": "Fab/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "CoryDora.step",
       "svg": "",
       "vrml": ""
     },
