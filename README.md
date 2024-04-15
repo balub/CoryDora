@@ -20,15 +20,15 @@ The main goal of this project is to have a cheap, easy-to-build, feature-rich nu
 - Completely open-source.
 
 ## Parts list
-| Part    | Quantity | Link to buy online
-| -------- | ------- |
-| Hotswap Sockets  | 9 | https://stackskb.com/store/ttc-pokayoke-hotswap-sockets-v2-10000-cycles/   |
-| Through hole 1N4148 Diode | 9 |      | https://stackskb.com/store/1n4148-through-hole-diode/
-| RP2040 zero    | 1   | https://robu.in/product/waveshare-rp2040-zero-without-header/
-| Rotary Encoders | 1| https://robu.in/product/m274-360-degree-rotary-encoder-module-brick-sensor/
-| 0.91 inch I2C OLED display | 1 | https://robu.in/product/0-91-inch-128x32-i2c-iic-serial-oled-lcd-display-modulewith-gnd-vcc-white/
-| Mx compatible mechanical switches | 9| https://stackskb.com/product-category/switches/linear/ or 
-| | |
+| **Part**                          | **Quantity** | **Links**                                                                                     | **--------** | **-------** |
+|---------------------------------|:------------:|:----------------------------------------------------------------------------------------------------------:|:------------:|:-----------:|
+| Hotswap Sockets                   | 9            | [Stacksb](https://stackskb.com/store/ttc-pokayoke-hotswap-sockets-v2-10000-cycles/ )                       |              |             |
+| Through hole 1N4148 Diode         | 9            | [Stacksb](https://stackskb.com/store/1n4148-through-hole-diode/)                                           |              |             |
+| RP2040 zero                       | 1            | [Robu](https://robu.in/product/waveshare-rp2040-zero-without-header/)                                      |              |             |
+| Rotary Encoders                   | 1            | [Robu](https://robu.in/product/m274-360-degree-rotary-encoder-module-brick-sensor/)                        |              |             |
+| 0.91 inch I2C OLED display        | 1            | [Robu](https://robu.in/product/0-91-inch-128x32-i2c-iic-serial-oled-lcd-display-modulewith-gnd-vcc-white/) |              |             |
+| Mx compatible mechanical switches | 9            | [Stacksb](https://stackskb.com/product-category/switches/linear/)                                          |              |             |
+
 
 ## Firmware
 
