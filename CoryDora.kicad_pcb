@@ -69,7 +69,7 @@
 			(psa4output no)
 			(plotreference no)
 			(plotvalue no)
-			(plotfptext yes)
+			(plotfptext no)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
@@ -638,7 +638,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45Â° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1368,7 +1368,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45Â° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2651,7 +2651,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45Â° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3494,7 +3494,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45Â° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4224,7 +4224,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45Â° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4954,7 +4954,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45Â° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5684,7 +5684,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45Â° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6414,7 +6414,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45Â° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7483,7 +7483,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45Â° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11270,7 +11270,7 @@
 			)
 		)
 		(property "Footprint" "DEKU_logo:DEKU_logo"
-			(at 0 0 0)
+			(at 5 0.5 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c4a2fdce-b948-4f54-90ef-a70ec33cd1df")
@@ -11578,6 +11578,7 @@
 		(property "Value" "RP2040_Zero"
 			(at -10.344 1.349891 -90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "d46ef6cf-4077-43ed-89ae-03b25e12acdc")
 			(effects
 				(font
@@ -12362,7 +12363,7 @@
 			)
 		)
 	)
-	(gr_text "CoryDora v1.1"
+	(gr_text "CoryDora v1.2"
 		(at 82.677 103.479062 270)
 		(layer "F.SilkS")
 		(uuid "8e82d18f-75f2-4fed-8f9e-bb793806d9ee")
