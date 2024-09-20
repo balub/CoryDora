@@ -1,0 +1,7 @@
+"Reference","Value","Datasheet","Footprint","Qty","DNP"
+"D1,D2,D3,D4,D5,D6,D7,D8,D9","Diode","","ScottoKeebs_Components:Diode_DO-35","9",""
+"H1,H2,H3,H4","MountingHole","~","MountingHole:MountingHole_2.2mm_M2","4",""
+"J1","OLED_128x32","","ScottoKeebs_Components:OLED_128x32","1",""
+"S1,S2,S3,S4,S5,S6,S7,S8,S9","Keyswitch","~","ScottoKeebs_Hotswap:Hotswap_MX_Plated_1.00u","9",""
+"SW1","RotaryEncoder_Switch","~","Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm","1",""
+"U1","RP2040_Zero","","ScottoKeebs_MCU:RP2040_Zero","1",""
