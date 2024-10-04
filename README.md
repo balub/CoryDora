@@ -6,8 +6,11 @@ A simple open-source, RP2040-based, QMK-compatible 3x3 mechanical macropad.
 
 The main goal of this project is to have a cheap, easy-to-build, feature-rich numpad which is completely open source.
 
+You can now buy the CoryDora yourself at the [Absurd Store](https://shop.absurd.industries/products/cory-dora).
+
 <p align="center">
-<img src="img/CoryDora_Real.jpg" alt="CoryDora v1" width="600"/>
+<img src="img/cory-dora-deku-shopabsurdindustries-534888.webp" alt="CoryDora v1" width="600"/>
+<img src="img/cory-dora-deku-shopabsurdindustries-519762.webp" alt="CoryDora v1" width="600"/>
 </p>
 
 ## Features:
