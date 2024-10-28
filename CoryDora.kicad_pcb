@@ -12352,6 +12352,19 @@
 		(layer "Edge.Cuts")
 		(uuid "376be758-701e-46fc-8335-451ee747e129")
 	)
+	(gr_text "{dblquote}I don't want to believe. I want to know.{dblquote} - Carl Sagan"
+		(at 152.4216 144.136462 0)
+		(layer "B.SilkS")
+		(uuid "05caf021-94b3-4e98-ba8a-0f857f41586e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "S8"
 		(at 115.5446 142.112462 0)
 		(layer "F.SilkS")

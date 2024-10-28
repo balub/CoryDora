@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Downloads")(type "KiCad")(uri "/Users/balubabu/Downloads")(options "")(descr ""))
   (lib (name "DEKU_logo")(type "KiCad")(uri "${MY_LIBRARY}/DEKU_Logo.pretty")(options "")(descr ""))
+  (lib (name "resources")(type "KiCad")(uri "${KIPRJMOD}/resources")(options "")(descr ""))
 )
