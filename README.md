@@ -39,3 +39,14 @@ Full build guide is available [here](https://rowan-ninja-baa.notion.site/CoryDor
 Clone [forked QMK](https://github.com/balub/qmk_firmware) repositories and set up the build environment. See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
 <img src="img/qmk-badge-dark.png" alt="QMK" width="145"/>
+
+## KiCAD 3D Models
+
+The 3D models referenced by the footprints are not included in this repository. They are part of the ScottOkeebs KiCad library. Clone or otherwise obtain the ScottOkeebs KiCad library so that it contains the `3dmodels` directory with `ScottoKeebs_Hotswap.3dshapes` and `ScottoKeebs_Components.3dshapes`.
+
+Set the `SCOTTOKEEBS_KICAD` environment variable in KiCad to the path of the ScottOkeebs KiCad library root (Preferences -> General -> Environment Variables, or your OS environment), then reload the project so that paths such as:
+
+- `${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step`
+- `${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step`
+
+resolve to the actual STEP files.
