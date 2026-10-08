@@ -39,3 +39,19 @@ Full build guide is available [here](https://rowan-ninja-baa.notion.site/CoryDor
 Clone [forked QMK](https://github.com/balub/qmk_firmware) repositories and set up the build environment. See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
 <img src="img/qmk-badge-dark.png" alt="QMK" width="145"/>
+
+## License
+
+Original CoryDora hardware designs and accompanying documentation are licensed
+under **CERN-OHL-S-2.0**. You may use, modify, manufacture, and sell the hardware
+under its terms. Retain the project attribution and other applicable notices;
+provide the complete editable sources under the same licence when required
+for distributed derivatives.
+
+See [licensing scope and third-party exclusions](LICENSE) and the
+[complete licence text](LICENSES/CERN-OHL-S-2.0.txt). Third-party material retains
+its existing licences. The [separate QMK firmware fork](https://github.com/balub/qmk_firmware)
+retains its applicable upstream and file-specific licences.
+
+Attribution: **CoryDora project and its contributors**.
+Source location: <https://github.com/balub/CoryDora>.

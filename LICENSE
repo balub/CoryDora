@@ -1,0 +1,43 @@
+CoryDora licensing
+
+SPDX-License-Identifier: CERN-OHL-S-2.0
+
+CoryDora's original hardware designs and accompanying documentation in this
+repository are licensed under the CERN Open Hardware Licence Version 2 -
+Strongly Reciprocal (CERN-OHL-S-2.0). The complete licence text is in
+LICENSES/CERN-OHL-S-2.0.txt.
+
+This covers original schematics, PCB layouts, project files, fabrication
+outputs, bills of materials, enclosure CAD and exports, build instructions,
+diagrams, and project photographs whose copyright is held by CoryDora's
+contributors, unless a file carries a different explicit licence notice.
+
+Attribution notice: CoryDora project and its contributors.
+Source location: https://github.com/balub/CoryDora
+Retain applicable copyright, acknowledgement, licence, and source-location
+notices when redistributing source or derivatives, as required by the licence.
+Identify modifications and provide the Complete Source under CERN-OHL-S-2.0
+when required by the licence.
+
+The covered source and products are supplied without warranty, as detailed
+in section 6 of the licence.
+
+Third-party material
+
+Third-party components, libraries, footprints, models, datasheets, logos,
+and other material retain their existing licences and ownership. This
+licence does not relicense material CoryDora's contributors do not own.
+Preserve the relevant upstream copyright and licence notices. In particular,
+V2/libraries/MX_V2 retains its upstream licence in that directory.
+
+Firmware
+
+CoryDora's QMK-based firmware is maintained separately at
+https://github.com/balub/qmk_firmware and retains the applicable licences
+in that repository. It is not relicensed by this file.
+
+Names and branding
+
+This licence does not grant trademark rights to the CoryDora name or logos,
+or imply endorsement of derivatives. Factual attribution remains permitted
+as provided by the licence.
